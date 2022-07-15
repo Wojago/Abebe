@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chart-control-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chartControl/ChartControlWebPart.js",
+          "manifest": "./src/webparts/chartControl/ChartControlWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChartControlWebPartStrings": "lib/webparts/chartControl/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
